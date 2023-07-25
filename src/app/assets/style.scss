@@ -12,5 +12,8 @@
 body{
     font-family: "Plus Jakarta Sans";
     background-color: $Light-grayish-blue-2;
+    @media (max-width:768) {
+      background-color: transparent;
+    }
 }
 
